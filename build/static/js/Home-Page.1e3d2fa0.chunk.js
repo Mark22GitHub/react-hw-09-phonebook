@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-hw-08-phonebook"]=this["webpackJsonpreact-hw-08-phonebook"]||[]).push([[1],{110:function(e,t,n){e.exports={container:"HomePage_container__s2SMj",title:"HomePage_title__3pkFT"}},117:function(e,t,n){"use strict";n.r(t);n(0);var a=n(110),o=n.n(a),c=n(1);t.default=function(){return Object(c.jsx)("div",{className:o.a.container,children:Object(c.jsxs)("h1",{className:o.a.title,children:["Home,sweet home...",Object(c.jsx)("span",{role:"img","aria-label":"Home",children:"\ud83c\udfe1"})]})})}}}]);
+//# sourceMappingURL=Home-Page.1e3d2fa0.chunk.js.map

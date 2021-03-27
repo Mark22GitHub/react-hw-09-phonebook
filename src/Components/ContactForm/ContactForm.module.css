@@ -1,0 +1,133 @@
+/* .container {
+  min-height: calc(100vh - 50px);
+} */
+
+.contactForm {
+  /* border: 15px ridge #3ab0ff;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; */
+
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 14px ridge #3ab0ff;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input {
+  display: flex;
+  font-size: inherit;
+  margin-top: 10px;
+}
+
+.addContact {
+  cursor: pointer;
+  width: 210px;
+  padding: 10px;
+  font-size: inherit;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-color: #62bbd3;
+  background-image: linear-gradient(
+      30deg,
+      #80c9dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #80c9dd 87.5%,
+      #80c9dd
+    ),
+    linear-gradient(
+      150deg,
+      #80c9dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #80c9dd 87.5%,
+      #80c9dd
+    ),
+    linear-gradient(
+      30deg,
+      #80c9dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #80c9dd 87.5%,
+      #80c9dd
+    ),
+    linear-gradient(
+      150deg,
+      #80c9dd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #80c9dd 87.5%,
+      #80c9dd
+    ),
+    linear-gradient(
+      60deg,
+      #d5eaf0 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #d5eaf0 75%,
+      #d5eaf0
+    ),
+    linear-gradient(
+      60deg,
+      #d5eaf0 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #d5eaf0 75%,
+      #d5eaf0
+    );
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+}
+
+.addContact:hover {
+  background-color: #f3a183;
+  background-image: linear-gradient(
+      transparent 0px,
+      transparent 49px,
+      rgba(255, 255, 255, 0.2) 50px,
+      transparent 51px,
+      transparent 99px,
+      rgba(255, 255, 255, 0.2) 100px
+    ),
+    linear-gradient(
+      120deg,
+      transparent 0,
+      transparent 48px,
+      rgba(255, 255, 255, 0.2) 49px,
+      transparent 50px,
+      transparent 98px,
+      rgba(255, 255, 255, 0.2) 99px,
+      transparent 100px
+    ),
+    linear-gradient(
+      60deg,
+      transparent 0,
+      transparent 48px,
+      rgba(255, 255, 255, 0.2) 49px,
+      transparent 50px,
+      transparent 98px,
+      rgba(255, 255, 255, 0.2) 99px,
+      transparent 100px
+    ),
+    linear-gradient(90deg, #f3a183, #ec6f66);
+  background-size: 100px 100px, 115px 100px, 115px 100px, auto;
+  color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: scale(1.2);
+}

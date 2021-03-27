@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 14px ridge #3ab0ff;
+  /* border: 14px ridge #ff9d6c; */
+  /* background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db); */
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+  padding: 7px;
+}
