@@ -18,8 +18,4 @@ const PrivateRoute = ({
   );
 };
 
-// const mapStateToProps = state => ({
-//   isAuthenticated: authSelectors.getIsAuthenticated(state),
-// });
-
 export default PrivateRoute;

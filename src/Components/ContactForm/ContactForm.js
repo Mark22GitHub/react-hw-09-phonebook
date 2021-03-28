@@ -6,11 +6,11 @@ import styles from './ContactForm.module.css';
 import { contactsOperations, contactsSelectors } from '../../redux/contacts';
 
 const ContactForm = () => {
+  const dispatch = useDispatch();
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
   const contacts = useSelector(contactsSelectors.getAllContacts);
-  const dispatch = useDispatch();
 
   const nameInputId = uuidv4();
   const numberInputId = uuidv4();
