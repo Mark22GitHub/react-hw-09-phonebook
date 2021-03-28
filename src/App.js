@@ -40,25 +40,29 @@ const App = () => {
       <AppBar />
       <Suspense fallback={<Loader />}>
         <Switch>
-          <PublicRoute exact path={routes.home} component={HomePage} />
+          <PublicRoute exact path={routes.home}>
+            <HomePage />
+          </PublicRoute>
 
-          <PrivateRoute
-            path={routes.contacts}
-            redirectTo={routes.login}
-            component={ContactsPage}
-          />
+          <PrivateRoute path={routes.contacts} redirectTo={routes.login}>
+            <ContactsPage />
+          </PrivateRoute>
+
           <PublicRoute
             path={routes.register}
             restricted
             redirectTo={routes.contacts}
-            component={RegisterPage}
-          />
+          >
+            <RegisterPage />
+          </PublicRoute>
+
           <PublicRoute
             path={routes.login}
             restricted
             redirectTo={routes.contacts}
-            component={LoginPage}
-          />
+          >
+            <LoginPage />
+          </PublicRoute>
         </Switch>
       </Suspense>
     </>
